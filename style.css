@@ -1,0 +1,58 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    /* background-image: url('./media/default.jpg'); */
+    background: linear-gradient(to bottom right, #BAEBFF, #C55DF6) no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    /* background-color: rgba(43, 42, 42, 0.541); */
+    background-color: rgba(67, 26, 250, 0.589);
+    height: 30rem;
+    width: 50rem;
+    padding: 2rem;
+    box-shadow: -5px 5px 8px grey;
+}
+
+.main_info {
+    font-size: large;
+}
+
+#location {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+#time {
+    font-size: 3rem;
+}
+
+#temperature {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.data_icons {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.8rem;
+}
+
+.parameters{
+    box-shadow: 2px 2px 15px rgb(173, 173, 173);
+    background-color: rgba(214, 248, 237, 0.315);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
