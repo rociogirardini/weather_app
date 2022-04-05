@@ -27,7 +27,7 @@ const setWeatherData = data => {
         feels_like: "But they feel like " + data.main.feels_like + "°C",
         description: "Outside: " + data.weather[0].description,
         descriptionIcon: `
-        <img alt="Weather icon" src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
+        <img alt="Weather icon" class="descriptionIcon" src="http://openweathermap.org/img/wn/${data.weather[0].icon}.png">
         ` ,
         humidity: "Humidity: " + data.main.humidity + " °C",
         humidityIcon: `

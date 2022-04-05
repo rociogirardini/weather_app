@@ -16,9 +16,9 @@
     <title>Weather app</title>
 </head>
 
-<body onload="onLoad()">
+<body onload="onLoad()" class="bg-image d-flex justify-content-center align-items-center">
     <div class="background">
-        <div class="container">
+        <div class="container container-fluid d-flex flex-column justify-content-evenly">
             <div class="row">
                 <div class="col">
                     <div class="main_info">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col main_info">
-                    <div id="location" class="d-flex justify-content-end"></div>
+                    <div id="location" class="d-flex justify-content-end "></div>
                     <div id="country" class="d-flex justify-content-end"></div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <br>
-            <div class="row d-flex align-items-end justify-content-between">
+            <div class="row d-flex align-items-center justify-content-around">
                 <div class="col">
                     <div class="parameters">
                         <div id="descriptionIcon" class="d-flex justify-content-center"></div>
