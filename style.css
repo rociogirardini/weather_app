@@ -14,7 +14,7 @@ body {
 
 .background {
     background-color: rgba(67, 26, 250, 0.658);
-    padding: 2vh;
+    padding: 2vh 2vh 0vh 2vh;
     box-shadow: -5px 5px 8px rgb(78, 78, 78);
 }
 
@@ -50,7 +50,6 @@ body {
 }
 
 .parameters {
-    /* box-shadow: 2px 2px 15px rgb(173, 173, 173); */
     background-color: rgba(214, 248, 237, 0.315);
     height: 18vh;
     width: 18vh;
@@ -74,9 +73,14 @@ body {
 
 @media (max-width: 767px) {
     body {
-        margin: 8vh;
+        margin: 7vh 0vh 7vh 0vh;
+        padding: 3vh;
     }
     #country{
         visibility: hidden;
+    }
+    
+    .background{
+        margin: 2vh;
     }
 }
