@@ -7,15 +7,6 @@ const fetchData = position => {
         .then(data => setWeatherData(data))
 }
 
-// const outsideStatus = data.weather[0].main
-// switch (outsideStatus) {
-//     case 'Clear':
-//         document.getElementByClass('background').src = './media/clear.jpg'
-//     default:
-//         document.getElementByClass('background').src = './media/default.jpg'
-// }
-
-
 const setWeatherData = data => {
     console.log(data);
     const weatherData = {
@@ -43,6 +34,51 @@ const setWeatherData = data => {
 
         document.getElementById(key).innerHTML = weatherData[key];
     });
+
+    const outsideStatus = data.weather[0].main;
+    switch (outsideStatus) {
+        case 'Clear':
+            document.body.style.backgroundImage = "url('./media/clear.jpg')";
+            break;
+        case 'Thunderstorm':
+            document.body.style.backgroundImage = "url('./media/thunderstorm.jpg')";
+            break;
+        case 'Drizzle':
+        case 'Squall':
+            document.body.style.backgroundImage = "url('./media/drizzle.jpg')";
+            break;
+        case 'Rain':
+            document.body.style.backgroundImage = "url('./media/rain.jpg')";
+            break;
+        case 'Snow':
+            document.body.style.backgroundImage = "url('./media/snow.jpg')";
+            break;
+        case 'Mist':
+        case 'Fog':
+            document.body.style.backgroundImage = "url('./media/mist.jpg')";
+            break;
+        case 'Smoke':
+        case 'Haze':
+            document.body.style.backgroundImage = "url('./media/smoke.jpg')";
+            break;
+        case 'Dust':
+        case 'Sand':
+            document.body.style.backgroundImage = "url('./media/dust.jpg')";
+            break;
+        case 'Ash':
+            document.body.style.backgroundImage = "url('./media/ash.jpg')";
+            break;
+        case 'Tornado':
+            document.body.style.backgroundImage = "url('./media/tornado.jpg')";
+            break;
+        case 'Clouds':
+            document.body.style.backgroundImage = "url('./media/clouds.jpg')";
+            break;
+        default:
+            document.body.style.backgroundImage = "url('./media/default.jpg')";
+            break;
+    }
+
 }
 
 const getDate = () => {
