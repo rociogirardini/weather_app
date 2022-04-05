@@ -1,11 +1,10 @@
 <div id="top"></div>
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/rocio-girardini/]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/rociogirardini/weather_app/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./media/weather_logo.webp" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Weather App</h3>
@@ -38,9 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+[![Preview][preview-screenshot]](./media/project_preview.png)
 
 
 
@@ -51,14 +48,13 @@
 * JavaScript
 * [Bootstrap](https://getbootstrap.com)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 
 Rocío de los Milagros Girardini - [@Linkedin](https://www.linkedin.com/in/rocio-girardini/) - rogirardini@gmail.com
 
 Project Link: [https://rociogirardini.github.io/weather_app/](https://rociogirardini.github.io/weather_app/)
+<br />
 Repository Link: [https://github.com/rociogirardini/weather_app](https://github.com/rociogirardini/weather_app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
